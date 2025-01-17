@@ -15,11 +15,11 @@ Vamos al servicio AWS EC2.
    - Name: IoT-server-SG
    - Inboud rules:
       - Type: Custom TCP
-      - Port Range: 5000
-      - Source: 0.0.0.0/0
+         - Port Range: 5000
+         - Source: 0.0.0.0/0
       - Type: ssh
-      - Port Range: 22
-      - Source: myIP        
+         - Port Range: 22
+         - Source: myIP        
       
    Creamos una instancia EC2 donde vamos a configurar el servidor IoT utilizando el framework flask de python. La instancia tiene las siguientes configuraciones:
    
