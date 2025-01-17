@@ -23,13 +23,13 @@ Vamos al servicio AWS EC2.
       
    Creamos una instancia EC2 donde vamos a configurar el servidor IoT utilizando el framework flask de python. La instancia tiene las siguientes configuraciones:
    
-     - AMI: *Amazon Linux 2023*
-     - Instance Type: *t2.micro*
-     - Key Pair: associate a key pair
-     - Network settings:
-        - VPC
-        - Public Subnet: enable *Public IP*
-        - Security Group: IoT-server-SG
+   - AMI: *Amazon Linux 2023*
+   - Instance Type: *t2.micro*
+   - Key Pair: associate a key pair
+   - Network settings:
+     - VPC
+     - Public Subnet: enable *Public IP*
+     - Security Group: IoT-server-SG
      - Advanced details:
 
      - User data: *copy the next following lines to the user data*
