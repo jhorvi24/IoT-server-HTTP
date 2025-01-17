@@ -33,14 +33,14 @@ Vamos al servicio AWS EC2.
      - Advanced details:
 
      - User data: *copy the next following lines to the user data*
-           ```
-           #!/bin/bash
-           sudo dnf install -y python3.9-pip
-           pip install virtualenv           
-           sudo dnf install -y git           
-           pip install flask           
-           git clone https://github.com/jhorvi24/IoT-server-HTTP.git
-            ```
+          
+                    #!/bin/bash
+                    sudo dnf install -y python3.9-pip
+                    pip install virtualenv           
+                    sudo dnf install -y git           
+                    pip install flask           
+                    git clone https://github.com/jhorvi24/IoT-server-HTTP.git
+            
       - Una vez que la instancia se está ejecutando puedes conectarte a través de SSH, comprobar que las librerías se han instalado y que el repositorio de GitHub se ha clonado.  
                    
       - Para correr el servidor IoT debes ubicarte en la carpeta que se ha clonado donde está el archivo server.py. Verifica que el grupo de seguridad tiene los respectivos puertos  abiertos y ejecuta el siguiente comando para correr el servidor IoT.
