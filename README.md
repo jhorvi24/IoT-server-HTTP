@@ -32,7 +32,7 @@ Vamos al servicio AWS EC2.
         - Security Group: IoT-server-SG
      - Advanced details:
 
-        - User data: *copy the next following lines to the user data*
+     - User data: *copy the next following lines to the user data*
            ```
            #!/bin/bash
            sudo dnf install -y python3.9-pip
